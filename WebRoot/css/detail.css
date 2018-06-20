@@ -1,0 +1,46 @@
+@charset "utf-8";
+.main{
+	width:1300px;
+	height:500px;
+}
+.main h1{
+	
+	height:80px;
+	text-align: center;
+}
+.main .detail{
+	width:1300px;
+	height:220px;
+}
+.main .detail .line{
+	
+	height:60px;
+}
+.main .detail .line h3{
+	height: 45px;
+	float: left;
+	font-size: 20px;
+	width: 120px;
+	margin: 0 0 0 480px;
+}
+.main .detail .line input{
+	height: 30px;
+	width: 200px;
+}
+.main .link{
+	width:1300px;
+	height:80px;
+	margin:20px 0 0 0;
+}
+.main .link a{
+	margin:0 0 0 600px;
+	width:200px;
+	height:80px;
+	font-size: 25px;
+	background: cornflowerblue;
+	color:white;
+	text-decoration: none;
+}
+.main .link a:hover{
+	color:blue;
+}

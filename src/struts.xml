@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC 
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN" 
+    "http://struts.apache.org/dtds/struts-2.3.dtd"> 
+<struts>
+	<package name="default" extends="struts-default" namespace="/">
+	
+        <action name="manager_login" class="com.yueball.action.ManagerAction" method="login">
+        	<result name="SUCCESS">/frame.jsp</result>
+        </action>
+        
+        <action name="stadium_*" class="com.yueball.action.StadiumAction" method="{1}">
+        	<result name="findStadium">/jsp/stadium/Stadium.jsp</result>
+        	<result name="goEditStadium">/jsp/stadium/editStadium.jsp</result>
+        	<result name="updateSUCCESS" type="redirectAction">stadium_findAll</result>
+        </action>
+        
+        <action name="team_*" class="com.yueball.action.TeamAction" method="{1}">
+        	<result name="findAll">/jsp/team/listTeam.jsp</result>
+        	<result name="registerSuccess">/jsp/user/registerSuccess.jsp</result>
+        	<result name="goMain">/jsp/user/loginMain.jsp</result>
+        	<result name="myTeam">/jsp/user/team/MyTeam.jsp</result>
+        	<result name="editTeam">/jsp/user/team/EditTeam.jsp</result>
+        	<result name="editSuccess">/jsp/user/team/EditTeamSuccess.jsp</result>
+        	<result name="teamOrder">/jsp/user/order/teamOrder.jsp</result>
+        	<result name="registTeam">/jsp/team/RegistTeam.jsp</result>
+        	<result name="checking">/jsp/user/loginFail.jsp</result>
+        	<result name="approveSuccess">/jsp/team/approveRegist.jsp</result>
+        	<result name="appTeamSuccess">/jsp/team/appTeamSuccess.jsp</result>
+        </action>
+        
+        <!-- 数据字典表的action -->
+        <action name="basedictAction" class="com.yueball.action.BasedictAction" method="findNameBydictCode"></action>
+	
+		<action name="venue_*" class="com.yueball.action.VenueAction" method="{1}">
+				<result name="findAllVenue">/jsp/venue/listVenue.jsp</result>
+				<result name="goEditVenue">/jsp/venue/editVenue.jsp</result>
+		</action>
+		
+		<action name="order_*" class="com.yueball.action.OrderAction" method="{1}">
+				<result name="orderInfo">/jsp/user/order/teamOrder.jsp</result>
+				<result name="addOrder">/jsp/user/order/submitOrder.jsp</result>
+				<result name="submitSuccess">/jsp/user/order/submitSuccess.jsp</result>
+		</action>
+	</package>
+</struts>    

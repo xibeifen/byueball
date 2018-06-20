@@ -1,0 +1,55 @@
+@charset "utf-8";
+.main{
+	width:1300px;
+	height:700px;
+}
+.main h1{
+	
+	height:80px;
+	text-align: center;
+}
+.main .line{
+	height:300px;
+	
+}
+.main .line .left{
+	float:left;
+	width:200px;
+	height:80px;
+	margin:10px 0 0 400px;
+	
+}
+.main .line .left h3{
+	float:left;
+	height:80px;
+	margin:20px 0 0 10px;
+}
+.main .line .left .time{
+	height:80px;
+}
+.main .line .left .time h3{
+	height:80px;
+	margin:20px 0 0 10px;
+}
+.main .line .right{
+	float:left;
+	width:500px;
+	height:280px;
+	margin:10px 0  0 50px;
+
+}
+.main .line .right h3{
+	float:left;
+	height:50px;
+	margin:20px 0 0 10px;
+}
+.main .line .right .detail{
+	height:300px;
+	float:right;
+	
+}
+.main .line .right .detail h3{
+	
+	height:30px;
+	margin:0 0 10px 100px;
+}

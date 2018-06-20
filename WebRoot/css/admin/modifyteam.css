@@ -1,0 +1,57 @@
+.modifyteamModal{width:500px;height:750px;border:1px sold #ccc;background:#fff;color:#000;margin:20px auto;border-radius:5px}
+
+.modifyteamModal .list1{width:500px;height:50px;}
+.modifyteamModal .list1 label{width:100px;height:40px;line-height: 40px;text-align:right;float:left;margin-right:10px}
+.modifyteamModal .list1 input{width:300px;height:40px;float:left;}
+.modifyteamModal .list1 select{width:300px;height:40px;float:left;}
+.modifyteamModal .sub{width:300px;height:40px;margin:20px auto}
+.modifyteamModal .sub button{margin-left:30px;width: 100px;}
+/*@charset "utf-8";
+.main{
+	width: 720px;
+	height: 300px;
+	margin:20px 0 0 150px;
+}
+
+.main h1{
+		width: 100%;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+	margin:20px 0 0 0;
+}
+.main .table1 {
+	width:700px;
+	margin:0  ;
+	height:120px;
+
+}
+.main .table1 th {
+	background-color:lightblue;
+	color:#000000;
+	height: 64px;
+}
+.main .table1,.table1 th,.table1 td {
+	font-size:0.95em;
+	text-align:center;
+	padding:4px;
+	/*border-collapse:collapse;*/
+}
+/*.main .table1 th,.table1 td {
+	border: 1px solid #c1e9fe;
+	border-width:1px 0 1px 0
+}
+.main .table1 tr {
+	border: 1px solid #c1e9fe;
+}
+.main .table1 tr:nth-child(odd){
+	background-color:#dbf2fe;
+}
+.main input{
+	float: left;
+	margin:20px 0 0 280px;
+	width:150px;
+	height:40px;
+	font-size: 20px;
+	border-radius: 5px;
+}*/*/

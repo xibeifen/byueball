@@ -1,0 +1,23 @@
+.jieguoModal{width:500px;height:400px;border:1px sold #ccc;background:#fff;color:#000;margin:20px auto;border-radius:5px;}
+
+.jieguoModal .table1  {
+	width:400px;
+     height:200px;
+
+}
+.jieguoModal .table1 tr td label {
+	width:100px;height:40px;line-height: 40px;text-align:right;float:left;margin-right:10px;
+	font-size: 18px;
+}
+.jieguoModal .table1 tr td button{
+	width: 100px;
+	font-size: 18px;
+}
+.jieguoModal .sub{
+	width:300px;height:40px;margin:20px auto;
+	
+}
+.jieguoModal .sub button{
+	margin:0 0 0 100px;width: 100px;
+	font-size: 18px;
+}

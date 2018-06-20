@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+#top{
+	height:50px;
+	font-size:36px;
+	font-style:bold;
+	text-align:center;
+	}
+#center{
+	height:50px;
+	font-size:36px;
+	font-style:bold;
+	margin-top:50px;
+	text-align:center;
+	}
+#bottom{
+	margin:auto;
+	height:60px;
+	font-style:bold;
+	text-align:center;
+	
+	margin-top:50px;
+	width:180px;
+	
+	}
+	 
+#bottom a { 
+	font-size:36px;
+	text-decoration:none;
+    color:white; 
+     
+    background:cornflowerblue;
+} 
+#bottom a:hover { 
+color:#03F; 
+
+} 
+

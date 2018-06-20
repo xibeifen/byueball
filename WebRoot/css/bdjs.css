@@ -1,0 +1,57 @@
+@charset "utf-8";
+.content{
+	height:550px;
+}
+
+.content  h1{
+	height:80px;
+	text-align: center;
+}
+.main{
+	height: 470px;
+	width:800px;
+	margin:0 0 0 400px;
+}
+.main .line{
+	height: 45px;
+	width:800px;
+}
+.main .line span{
+	height: 45px;
+	width:200px;
+	float: left;
+	font-size: 25px;
+	margin: 0 0 0 50px;
+}
+.main .line div{
+	height: 45px;
+	float: left;
+	width;350px;
+	margin:0 0 0 20px;
+} 
+.main .line div input{
+	height: 30px;
+	width: 200px;
+}
+.main .line div .div1 input{
+	height: 30px;
+	width: 200px;
+	float: left;
+}
+.main .line div .div2 input{
+	background-color: blue;
+	color: white;
+	float:left;
+	margin:0;
+	font-size: 17px;
+	height:40px;
+	width:100px;
+}
+.main .true input{
+	background-color: blue;
+	color: white;
+	font-size: 22px;
+	margin:20px 0 0 250px;
+	height:50px;
+	width:100px;
+}

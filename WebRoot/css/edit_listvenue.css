@@ -1,0 +1,66 @@
+.modifyvenueModal{width:500px;height:550px;border:1px sold #ccc;background:#fff;color:#000;margin:20px auto;border-radius:5px}
+
+.modifyvenueModal .list1{width:500px;height:50px;}
+.modifyvenueModal .list1 label{width:100px;height:40px;line-height: 40px;text-align:right;float:left;margin-right:10px}
+.modifyvenueModal .list1 input{width:300px;height:40px;float:left;}
+.modifyvenueModal .list1 select{width:300px;height:40px;float:left;}
+.modifyvenueModal .list1 img{width:300px;height:140px;float:left;}
+.modifyvenueModal .sub{width:300px;height:40px;margin:20px auto}
+.modifyvenueModal .sub button{margin:30px 0 0 30px;width: 100px;}
+
+
+/*@charset "utf-8";
+.content{
+	width: 720px;
+	height: 700px;
+	margin:20px 0 0 150px;
+}
+.content h1{
+	width: 100%;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.content .table1 {
+	width:700px;
+	margin:0  ;
+	height:350px;
+
+}
+.content .table1 th {
+	background-color:lightblue;
+	color:#000000;
+	
+}
+.content .table1,.table1 th,.table1 td {
+	font-size:0.95em;
+	text-align:center;
+	padding:4px;
+	border-collapse:collapse;
+}
+.content .table1 th,.table1 td {
+	border: 1px solid #c1e9fe;
+	border-width:1px 0 1px 0
+}
+.content .table1 tr {
+	border: 1px solid #c1e9fe;
+}
+.content .table1 tr:nth-child(odd){
+	background-color:#dbf2fe;
+}
+
+.content .btn{
+width :80 px;
+	height: 60px;
+	margin:0 0 0 400px;
+} 
+
+.content .btn  input{
+		width:100px;
+	height:30px;
+	font-size: 15px;
+	border-radius: 5px;
+	margin: 0 0 0 20px;
+	
+}*/

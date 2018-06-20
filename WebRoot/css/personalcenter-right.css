@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+.main{
+	float: left;
+	width: 400px;
+	height: 600px;
+	
+	border: 1px solid saddlebrown;
+}
+.main .top{
+	width:400px;
+	height: 300px;
+}
+.main .bottom{
+	padding: 0px;
+	width:300px;
+	height:300px;
+	margin:0 0 0 100px;
+}
+.main .bottom button{
+	height: 100px;
+	width:200px;
+	margin-top: 40px;
+	font-size: 30px;
+
+}
